@@ -12,4 +12,12 @@ class Post
   def self.all
     @@all
   end
+
+  def author_name
+    if @author == nil
+      nil
+    else
+      @artist.name
+    end
+  end
 end
