@@ -17,7 +17,7 @@ class Post
     if @author == nil
       nil
     else
-      @artist.name
+      @author.name
     end
   end
 end
